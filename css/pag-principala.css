@@ -1,0 +1,305 @@
+html{
+	min-height: 100%;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-size: 100%;
+	background-image: url("background-photo.png");
+	background-position: 50% 50%;
+	background-size: cover;
+	
+}
+@font-face{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	src: url("Montserrat-Regular.ttf");
+}
+@font-face{
+	font-family: Raanan;
+	font-style: normal;
+	font-weight: 400;
+	src: url("Raanan-regular.otf");
+}
+
+.menu
+{
+	display: none;
+}
+.home-icon
+{
+	content: url("home-white.png");
+	height: 4.5vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.home-icon:hover
+{
+	content: url("home-orange.png");
+	height: 4.5vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+
+.meniu 
+{
+	list-style-type: none;
+	color: white;
+	font-size: 2.5vw;
+	font-family: Montserrat,sans-serif;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 2%;
+}
+li 
+{
+	text-align: center;
+	margin: 0;
+	padding: 10px 2vw;
+	cursor: pointer;
+	color: white;
+}
+a
+{
+	text-decoration: none;
+}
+li:hover
+{
+	color: orange;
+}
+.arataright
+{
+	margin-left: 23vw;
+}
+.slogan-icon
+{
+	margin-left: 48vw;
+}
+.icon-slogan
+{
+	height: 6vw;
+}
+.den-decor
+{
+	color:white; 
+	text-align:center; 
+	font-size: 2vw;
+	padding: 0;
+}
+.descriere
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 8%;
+	justify-content: space-between;
+	margin-right: 1%;
+	margin-left: 1%;
+	
+}
+.slogan
+{
+	align-self: flex-start;
+	flex-basis: 50%;
+}
+.slogan > pre
+{
+	font-family: Raanan,sans-serif;
+	color: #F29542;
+	font-size: 5.5vw;
+}
+.scurta-descriere
+{
+	flex-basis: 40%;
+}
+.scurta-descriere > p 
+{
+	font-family: Montserrat,sans-serif;
+	color: white;
+	font-size: 2.5vw;
+	text-align: center;
+}
+#btn 
+{
+	text-align: center;
+	background-color: #F29542;
+	color: white;
+	font-family: Montserrat,sans-serif;
+	font-size: 1.5vw;
+	margin-left: 80%;
+	padding: 2%;
+	border-radius: 20px;
+	border: none;
+	font-weight: bold;
+}
+#btn:hover
+{
+	background-color:white;
+	color: orange;
+}
+.subsol
+{
+  color: white;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-size: 1.5vw;
+  position: absolute;
+  margin-left: 40%;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px)
+{
+	.home-icon
+{
+	content: url("home-white.png");
+	height: 6vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.home-icon:hover
+{
+	content: url("home-orange.png");
+	height: 6vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+	.menu
+{
+	display: none;
+}
+
+@media screen and (max-width: 600px)
+{
+	.home-icon
+	{
+		content: none;
+	}
+.descriere
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	justify-content: space-between;
+	margin-right: 1%;
+	margin-left: 1%;
+	gap: 100px;
+}
+#btn 
+{
+	text-align: center;
+	background-color: #F29542;
+	color: white;
+	font-family: Montserrat,sans-serif;
+	font-size: 1.5vw;
+	margin-left: 50%;
+	padding: 2%;
+	border-radius: 20px;
+	border: none;
+	font-weight: bold;
+}
+.slogan
+{
+	align-self: center;
+	flex-basis: 50%;
+}
+.scurta-descriere
+{
+	align-self: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgba(36,37,39,0.3);
+
+}
+.slogan > p
+{
+	font-size: 10vw;
+}
+.scurta-descriere > p 
+{
+	font-family: Montserrat,sans-serif;
+	color: white;
+	font-size: 5vw;
+	text-align: center;
+}
+#btn 
+{
+	text-align: center;
+	background-color: #F29542;
+	color: white;
+	font-family: Montserrat,sans-serif;
+	font-size: 5vw;
+	margin-left: 40%;
+	padding: 2%;
+	border-radius: 20px;
+	border: none;
+	font-weight: bold;
+	margin-top: 2%;
+}
+.subsol
+{
+	color: white;
+  	text-align: center;
+  	font-family: Montserrat,sans-serif;
+  	font-size: 2.5vw;
+  	position: absolute;
+  	margin-left: 35%;
+}
+.icon-slogan
+{
+	height: 8vw;
+	margin-top: 2%;
+}
+.meniu
+{
+	display: none;
+	flex-direction: column;
+	width: 100%;
+	align-items: flex-start;
+	margin-left: 0;
+	background-color: rgba(0,0,0,0.3);
+	padding: 16px;
+	z-index: 3;
+	margin-top: 9.4%;
+	padding-top: 0px;
+}
+.home-icon
+{
+	padding: 10px 2vw;
+}
+.arataright
+{
+	margin-left: 0;
+}
+.menu 
+{
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 3;
+	padding: 16px;
+}
+a.icon
+{
+	content: url("burger-white.png");
+	height: 3vw;
+	margin-left: 2vw;
+}
+a.icon:hover{
+	content: url("burger-orange.png");
+	height: 3vw;
+	margin-left: 2vw;
+}
+
+

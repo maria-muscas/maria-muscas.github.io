@@ -1,0 +1,177 @@
+html{
+	min-height: 100%;
+}
+body
+{
+	font-size: 100%;
+}
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	src: url("Montserrat-Regular");
+}
+.background1
+{
+	background-image: url("caramizi.png");
+}
+.header
+{
+	display: flex;
+	flex-direction: row;
+}
+.home-icon
+{
+	content: url("home-white.png");
+	height: 4.5vw;
+	margin-top: 2%;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.home-icon:hover
+{
+	content: url("home-orange.png");
+	height: 4.5vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.slogan-icon
+{
+	margin: auto;
+	margin-top: 2%;
+}
+.icon-slogan
+{
+	height: 6vw;
+}
+.den-decor
+{
+	color:white; 
+	text-align:center; 
+	font-size: 2vw;
+	padding: 0;
+}
+.container
+{
+	display: flex;
+	align-items: stretch;
+}
+.titlu2
+{
+	text-align: center;
+	color: orange;
+	font-family: Montserrat, sans-serif;
+	font-size: 4vw;
+}
+.text1
+{
+	flex-basis: 50%;
+	font-family: Montserrat, sans-serif;
+	font-size: 3vw;
+	color: white;
+	padding-left: 20px;
+	text-align: center;
+	align-self: center;
+	
+}
+#img1
+{
+	max-width: 100%;
+	height: 100%;
+}
+.img-col
+{
+	flex-basis: 50%;
+}
+.background2
+{
+	background-image: url("fundal.png");
+	top: 0;
+	
+	/*position: absolute;*/
+
+}
+.text-angajari
+{
+	text-align: center;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-size: 3vw;
+	width: 100%;
+
+}
+.imag-angajari
+{
+	display: flex;
+	flex-direction: row;
+	margin: 2%;
+	gap: 2%;
+}
+.img-item
+{
+	flex-grow: 1;
+}
+.img-item img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+.beneficii > p
+{
+	color: white;
+	font-size: 3vw;
+	font-family: Montserrat,sans-serif;
+	margin-left: 2%;
+}
+.background-footer
+{
+	background-image: url("fundal_negru.png");
+	display: flex;
+	flex-direction: row;
+}
+.subsol
+{
+	padding-top: 1%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+}
+@media screen and (max-width: 768px)
+{
+	.home-icon
+{
+	content: url("home-white.png");
+	height: 6vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.home-icon:hover
+{
+	content: url("home-orange.png");
+	height: 6vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+}
+@media screen and (max-width: 600px)
+{
+	.icon-slogan
+{
+	height: 8vw;
+	margin-top: 2%;
+}
+	.container
+{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+}

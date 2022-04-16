@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pagina principala</title>
+	<link rel="stylesheet" type="text/css" href="css/pag-principala.css">
+	
+</head>
+<body>
+
+	<div class="header">
+		<div class="menu">
+			<a class="icon" onclick="myFunction()">
+			</a>
+		</div>
+		
+		<ul class="meniu">
+			<a href="">
+				<li class="home-icon">Acasă</li>
+			</a>
+			<a href="brutarie.html">
+					<li>Brutărie</li>
+			</a>
+			<a href="pag2.html">
+					<li>Produse</li>
+			</a>
+			<a href="echipa.html" class="arataright">
+					<li>Echipă</li>
+			</a>
+			<a href="angajari.html">
+					<li class=>Angajări</li>
+			</a>
+			<a href="contact.html">
+					<li>Contact</li>
+			</a>
+		</ul>
+		
+		</a>
+		<div class="slogan-icon">
+			<figure>
+					<img class="icon-slogan" src="slogan.png" alt="slogan icon">
+					<figcaption><strong class="den-decor">PitaPan</strong></figcaption>
+			</figure>
+		</div>
+			
+	</div>
+	<div class="descriere">
+		<div class="slogan">
+			<pre>GUSTUL AUTENTIC AL
+         PÂINII DE-ALTĂDATĂ...
+			</pre>
+		</div>
+		<div class="scurta-descriere">
+			<p>Brutăria PitaPan vă pune la dispoziție o pâine proaspătă, preparată din ingrediente naturale, de înaltă calitate, după rețete autentice</p>
+			<a href="pag2.html">
+				<button id="btn">Detalii</button>
+			</a>
+		</div>
+	</div>
+	<footer>
+		<div class="subsol"><p><br><br>Copyright © 2021 PitaPan<br>pitapan_oradea@yahoo.com<br>0789564321<br><p></div>
+	</footer>
+	<script>
+function myFunction() {
+  var x = document.getElementsByClassName("menu");
+  var y = document.getElementsByClassName("meniu");
+  if(y[0].style.display=="none")
+  {
+  	y[0].style.display="flex";
+  	x[0].style.backgroundColor="rgba(0,0,0,0.3)";
+  }
+  else
+  {
+  	y[0].style.display="none";
+  	x[0].style.background="none";
+  }  
+}
+</script>
+
+</body>
+</html>

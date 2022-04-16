@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+	<div class="background1">
+		<div class="header">
+			<a class="home-icon" href="index.html"></a>
+			<div class="slogan-icon">
+				<figure>
+						<img class="icon-slogan" src="slogan.png" alt="slogan icon">
+						<figcaption><strong class="den-decor">PitaPan</strong></figcaption>
+				</figure>
+			</div>
+		</div>
+		<div class="container-text">
+			<div class="text-block"><strong>Contact</strong></div>
+		</div>
+	</div>
+	<section>
+	<div class="container">
+		<form action="https://formspree.io/f/myyozlrn" method="POST">
+			<div class="form-group">
+				<label for="nume&prenume">Nume & prenume<br></label>
+				<input type="text" id="nume&prenume" name="nume&prenume" pattern="[A-Za-z]{3,8}"required>
+			</div>
+
+			<div class="form-group">
+				<label for="telefon">Telefon<br></label>
+				<input type="telefon" id="telefon" name="telefon" pattern="[0-9]{10}"required>
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email<br></label>
+				<input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+			</div>
+
+			<div class="form-group">
+				<label for="mesaj">Mesaj<br></label>
+				<textarea name="mesaj" id="mesaj" name="mesaj" cols="30" rows="10" required></textarea>
+			</div>
+
+			<button type="submit"><strong>Trimite</strong></button>
+		</form>
+	</div>
+	</section>
+	<div class="date">
+		<div class="text-slogan">
+			<p><strong><span style="color: orange;">PitaPan</span><br>gustul autentic al pâinii de-altădată...</strong></p>
+		</div>
+		<div class="inf-suplimentare">
+			<div class="locatia">
+				<p><span class="titlu-inf">&ensp;&ensp;Ne puteți găsi aici:<br></span><span class="inf-plus">Str. Rozelor nr. 44-46, Oradea, Bihor,<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;România</span></p>
+			</div>
+			<div class="telef">
+				<p><span class="titlu-inf">Telefon<br></span><span class="inf-plus">0789564321</span></p>
+			</div>
+			<div class="mail">
+				<p><span class="titlu-inf">&ensp;&ensp;&ensp;&ensp;&ensp;Email<br></span><span class="inf-plus">pitapan_oradea@yahoo.com</span></p>
+			</div>
+		</div>
+		<div class="orar">
+			<p><span class="titlu-inf"><br>&ensp;Orar<br></span><span class="inf-plus">L-V:&ensp;&ensp;7-20<br>&ensp;S:&ensp;&ensp;7-14<br>D:&ensp;&ensp;Închis<br></span></p>
+		</div>
+		<div class="background-footer">
+			<div class="subsol"><p><br><br>Copyright © 2021 PitaPan<br />pitapan_oradea@yahoo.com<br />0789564321<br /><p></div>
+	 </div>
+	</div>
+
+</body>
+</html>

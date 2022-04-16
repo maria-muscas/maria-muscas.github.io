@@ -1,0 +1,277 @@
+html{
+	min-height: 100%;
+}
+body
+{
+	font-size: 100%;
+}
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	src: url("Montserrat-Regular");
+}
+.background1
+{
+	background-image: url("caramizi.png");
+}
+.header
+{
+	display: flex;
+	flex-direction: row;
+}
+.home-icon
+{
+	content: url("home-white.png");
+	height: 4.5vw;
+	margin-top: 2%;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.home-icon:hover
+{
+	content: url("home-orange.png");
+	height: 4.5vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.slogan-icon
+{
+	margin: auto;
+	margin-top: 2%;
+}
+.icon-slogan
+{
+	height: 6vw;
+}
+.den-decor
+{
+	color:white; 
+	text-align:center; 
+	font-size: 2vw;
+	padding: 0;
+}
+a 
+{
+	text-decoration: none;
+}
+.container
+{
+	margin-top: 3%;
+	display: flex;
+	align-items: stretch;
+}
+.titlu2
+{
+	text-align: center;
+	color: orange;
+	font-family: Montserrat, sans-serif;
+	font-size: 3vw;
+}
+.text1
+{
+	flex-basis: 50%;
+	font-family: Montserrat, sans-serif;
+	font-size: 2vw;
+	color: white;
+	padding-left: 20px;
+	
+}
+#img1
+{
+	max-width: 100%;
+	height: 100%;
+}
+.img-col
+{
+	flex-basis: 50%;
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("fundal_negru.png");
+}
+.background2
+{
+	background-image: url("fundal_negru.png");
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+}
+.box
+{
+	margin-top: 2%;
+	flex-basis: 25%;
+	background-color: #222222;
+	border: 1px solid #222222;;
+	margin-bottom: 2%;
+	flex-wrap: nowrap;
+}
+.imag-oferte
+{
+	height: 15vw;
+	margin-left: 15%;
+}
+.den-imag-oferte
+{
+	color: orange;
+	text-align: center;
+	font-size: 2vw;
+}
+.background3
+{
+	background-image: url("fundal.png");
+	display: flex;
+	flex-direction: row;
+	gap: 7%;
+
+
+}
+.text-oferta
+{
+	
+	font-family: Montserrat, sans-serif;
+	font-size: 2vw;
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+}
+
+#img-din-oferta
+{
+	
+	height: 25vw;
+	margin-left: 10%;
+	margin-top: 20%;
+}
+.background-footer
+{
+	background-image: url("fundal_negru.png");
+	display: flex;
+	flex-direction: row;
+}
+.subsol
+{
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 768px)
+{
+	.home-icon
+{
+	content: url("home-white.png");
+	height: 6vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+.home-icon:hover
+{
+	content: url("home-orange.png");
+	height: 6vw;
+	margin-left: 2%;
+	padding-left: 0;
+}
+	.box
+{
+	margin-top: 2%;
+	flex-basis: 33.33%;
+	background-color: #222222;
+	border: 1px solid #222222;;
+	margin-bottom: 2%;
+}
+}
+@media screen and (max-width: 600px)
+{
+.icon-slogan
+{
+	height: 8vw;
+	margin-top: 2%;
+}
+.titlu2{
+	margin-top: 3%;
+	font-size: 5vw;
+}
+#img1
+{
+	display: none;
+}
+.text1
+{
+	font-size: 3.5vw;
+}
+.box
+{
+	margin-top: 2%;
+	flex-basis: 50%;
+	background-color: #222222;
+	border: 1px solid #222222;;
+	margin-bottom: 2%;
+}
+
+.imag-oferte
+{
+	height: 25vw;
+	margin-left: 20%;
+}
+.den-imag-oferte
+{
+	font-size: 3.5vw;
+}
+.container
+{
+
+	text-align: center;
+	margin: auto;
+	flex-direction: column;
+
+}
+.background3
+{
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	column-gap: 2%;
+
+}
+.img-oferta-jos
+{
+	align-self: center;
+	margin-top: 10%;
+}
+#img-din-oferta
+{
+	height: 40vw;
+	width: 100%;
+
+}
+.text-oferta
+{
+	width: 75%;
+	align-self: center;
+
+}
+.text-oferta
+{
+	
+	font-size: 3vw;
+	padding: 0;
+}
+.subsol
+{
+	font-size: 2vw;
+	margin-top: 2%;
+}
+}
+
+
